@@ -29,7 +29,13 @@ Android WebView does not support Web Push, so Instagram's own notifications can'
 
 Both feed `Notifier`, which alerts only when the count goes up and you're not in the app. Expect delays of up to 15 minutes when the app is closed, longer in Doze. Some phones (Xiaomi, Samsung, etc.) need battery use set to "Unrestricted" for background checks to run.
 
-## Install
+## Download
+
+**[Download dm-only.apk](https://github.com/safwanpp/dm-only/releases/latest/download/dm-only.apk)** (latest release, Android 8.0+). All versions are on the [Releases](https://github.com/safwanpp/dm-only/releases) page.
+
+Open the APK on your phone and allow "install unknown apps" when asked. Play Protect may warn because the APK is signed with a debug key.
+
+## Build from source
 
 Build the APK (needs the Android SDK and JDK 17):
 
